@@ -13,9 +13,6 @@ body {
     align-items: center;
     height: 100vh;
     background-image: url(/bg-pic.jpg);
-    ::before{
-        filter: blur(10px);
-    } 
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -37,8 +34,7 @@ form {
     flex-direction: column;
 }
 label {
-    margin-top: 10px;
-    color: #333; 
+    margin-top: 10px; 
 }
 select, input{
     padding: 10px;
